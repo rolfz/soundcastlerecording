@@ -1,19 +1,18 @@
 ---
-title: Bienvenue
+title: Willkommen
 permalink: ./
 layout: page
 published: true
 ---
 
 {: .text-center }
-![Catherine Jörg](http://catherinejorg.ch/wp-content/uploads/2012/03/cat.jpg)
+![Carlo Bucher](http://soundcastlerecording.ch/wp-content/uploads/1983/03/Manta_Sound_Studio.jpg)
 
-Je m’appelle Catherine Jörg et mon cabinet de thérapies douces se situe à Seigneux, dans la Broye vaudoise, non loin de Moudon et de Payerne, en Suisse romande.
+Blablabla 1
 
+# etwas ueber Soudcastle Recording
 
-# Les thérapies que je propose
-
-{: .liste_therapies }
+{: .menu_liste }
 - [RÉFLEXOLOGIE PLANTAIRE][2]
 - [RÉFLEXOLOGIE INTUITIVE][3]
 - [MASSAGE AMÉRINDIEN AUX PIERRES CHAUDES ET FRAÎCHES][4]
@@ -21,16 +20,10 @@ Je m’appelle Catherine Jörg et mon cabinet de thérapies douces se situe à S
 - [MASSAGE DU DOS BREUSS][6]
 - [HYPNOSE THÉRAPEUTIQUE][7]
 
-Je me déplace volontiers à domicile pour la réflexologie ainsi qu’en entreprises pour le massage assis AMMA.
-
-Je suis agrée par l’ASCA pour le remboursement de la réflexologie par certaines assurances complémentaires.
-
-Prenez le temps de découvrir sur ce site les différentes thérapies que je propose.
-
-Au plaisir de vous rencontrer bientôt.
+Blablabla 2
 
 {: style="text-align:right; margin-right:40px;" }
-[*Catherine Jörg*][1]
+[*Carlo Bucher*][1]
 
 
 [1]: /contact/
