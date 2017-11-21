@@ -1,0 +1,130 @@
+---
+layout: pretty-print-basic
+---
+{% if page.url == "/404.html" %}
+	{% assign thisbaseurl = "/" %}
+{% else %}
+	{% assign page_level = page.url | append: "-" | split: '/' | size | minus: 2 %}
+	{% if page_level < 1 %}
+		{% assign thisbaseurl = "./" %}
+	{% else %}
+		{% assign thisbaseurl = "../" %}
+		{% for index in (2..page_level) %}
+			{% assign thisbaseurl = thisbaseurl | append: "../" %}
+		{% endfor %}
+	{% endif %}
+{% endif %}
+<!--[if IE 7]>
+<html class="ie ie7" lang="fr-FR">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="fr-FR">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html lang="fr-FR">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width" />
+	<title>SoundCastle Recording Studios</title>
+	<!--[if lt IE 9]>
+	<script src="http://catherinejorg.ch/wp-content/themes/twentythirteen/js/html5.js"></script>
+	<![endif]-->
+<link rel='dns-prefetch' href='http://fonts.googleapis.com' />
+<link rel='dns-prefetch' href='http://s.w.org' />
+<script type="text/javascript">
+	window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/catherinejorg.ch\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.2"}};
+	!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style type="text/css">
+.text-center {
+	text-align: center !important;
+}
+.text-right {
+	text-align: right !important;
+}
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='twentythirteen-fonts-css'  href='https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A300%2C400%2C700%2C300italic%2C400italic%2C700italic%7CBitter%3A400%2C700&amp;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='genericons-css'  href='/wp-content/themes/twentythirteen/genericons/genericons-ver=3.03.css' type='text/css' media='all' />
+<link rel='stylesheet' id='twentythirteen-style-css'  href='/wp-content/themes/twentythirteen-child/style-ver=2013-07-18.css' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentythirteen-ie-css'  href='http://catherinejorg.ch/wp-content/themes/twentythirteen/css/ie.css?ver=2013-07-18' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='background-manager-pub-css'  href='/wp-content/plugins/background-manager/resources/css/pub-ver=1.2.5.2.css' type='text/css' media='all' />
+<script type="text/javascript">/* <![CDATA[ */window.background_manager_ajax={"url":"http:\/\/catherinejorg.ch\/wp-admin\/admin-ajax.php","action":"background-manager"};/* ]]> */</script>
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery-ver=1.12.4.js'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery-migrate.min-ver=1.4.1.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var myatu_bgm = {"current_background":{"id":314,"url":"http:\/\/catherinejorg.ch\/wp-content\/uploads\/fond.jpg","alt":"","desc":"","caption":"fond","link":"","thumb":"http:\/\/catherinejorg.ch\/wp-content\/uploads\/fond-150x150.jpg","bg_link":"","transition":"crossfade","transition_speed":0},"change_freq":"0","active_gallery":"315","is_fullsize":"true","is_preview":"false","initial_ease_in":"true","info_tab_thumb":"true","bg_click_new_window":"false","bg_track_clicks":"false","bg_track_clicks_category":"Background Manager","display_on_mobile":"true","fs_center":"true"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='/wp-content/plugins/background-manager/resources/js/functions-ver=1.2.5.2.js'></script>
+<script type='text/javascript' src='/wp-content/plugins/background-manager/resources/js/flux-ver=1.2.5.2.js'></script>
+<script type='text/javascript' src='/wp-content/plugins/background-manager/resources/js/pub-ver=1.2.5.2.js'></script>
+<style type="text/css" media="screen">body.myatu_bgm_body { background-image: none !important;background-color: transparent !important; }</style>
+<script type="text/javascript">
+	jQuery(document).ready(function($)
+	{
+		jQuery( '#masthead' ).fadeTo( 0, 0 ).delay( 100 ).fadeTo( 1000, 1 );
+	});
+</script>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+<body class="home page-template-default page page-id-192 single-author myatu_bgm_body" id="{{ page.permalink }}">
+{% include analyticstracking.liquid %}
+<div id="page" class="hfeed site">
+	<header id="masthead" class="site-header" role="banner">
+		<a class="home-link" href="{{ thisbaseurl }}" title="Catherine Jörg" rel="home">
+			<h1 class="site-title">Catherine Jörg</h1>
+			<h2 class="site-description">Thérapies douces — Broye</h2>
+		</a>
+{% include menu-top.liquid %}
+	</header><!-- #masthead -->
+	<div id="main" class="site-main">
+		<div id="primary" class="content-area">
+			<div id="content" class="site-content" role="main">
+				<article id="post-192" class="post-192 page type-page status-publish hentry">
+					<header class="entry-header">
+						<h1 class="entry-title">{{ page.title }}</h1>
+					</header><!-- .entry-header -->
+					<div class="entry-content {{ page.css-classes | join: ' ' }}">
+						{{ content }}
+					</div><!-- .entry-content -->
+					<footer class="entry-meta">
+					</footer><!-- .entry-meta -->
+				</article><!-- #post -->
+				<div id="comments" class="comments-area"></div><!-- #comments -->
+		</div><!-- #content -->
+	</div><!-- #primary -->
+	</div><!-- #main -->
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="site-info">
+			© 2017 — <a href="{{ thisbaseurl }}contact/">Catherine Jörg</a><br/>
+			Webmaster <i class="fa fa-github" aria-hidden="true"></i> <a href="mailto:nicolas.jeanmonod@blewin.ch">Nicolas Jeanmonod</a> <i class="fa fa-github" aria-hidden="true"></i>
+		</div><!-- .site-info -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+<!-- Background Manager Start -->
+<div id="myatu_bgm_img_group" class="myatu_bgm_fs" style="overflow: hidden;"><script type="text/javascript">
+/*<![CDATA[*/
+	try{(function(a){myatu_bgm.addTopImage("",function(){if((typeof myatu_bgm!=="undefined")&&(myatu_bgm.initial_ease_in==="true")){a(this).fadeIn("slow")}else{a(this).show()}})}(jQuery))}catch(e){};
+/*]]>*/
+</script><noscript><img id="myatu_bgm_top" class="myatu_bgm_fs" src="/wp-content/uploads/fond.jpg" alt=""   /></noscript></div>
+<!-- Background Manager End -->
+<script type='text/javascript' src='/wp-content/themes/twentythirteen/js/functions-ver=20150330.js'></script>
+<script type='text/javascript' src='/wp-includes/js/wp-embed.min-ver=4.7.2.js'></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+
+title: "Soundcastle Recoding Studios"
+url: "http://soundcastlerecording.ch/"
+baseurl: ""
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: true
+
+exclude: [ "CNAME", "README.md", "Gemfile", "Gemfile.lock" ]
+
+gems:
+  - jekyll-sitemap
+

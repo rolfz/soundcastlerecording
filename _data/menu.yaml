@@ -1,0 +1,30 @@
+- titre: Accueil
+  menu:
+    - titre: Willkomnen
+      permalink: ./
+    - titre: Vorstellung
+      permalink: vorstellung/
+    - titre: Links
+      permalink: links/
+
+- titre: Dienstleistungen
+  menu:
+      - titre: 
+        permalink: reflexologie-plantaire/
+      - titre: Réflexologie intuitive
+        permalink: reflexologie-intuitive/
+
+- titre: Referenzen
+  menu:
+      - titre: Massage assis amma
+        permalink: massage-assis-amma/
+      - titre: Massage du dos breuss
+        permalink: massage-du-dos-breuss/
+      - titre: Hypnose thérapeutique
+        permalink: hypnose-therapeutique/
+
+		
+- titre: Kontact
+  menu:
+      - titre: Kontact
+        permalink: Kontact/
